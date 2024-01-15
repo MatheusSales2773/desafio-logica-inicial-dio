@@ -1,5 +1,5 @@
-var nomeHeroi;
-var xpHero;
+let nomeHeroi;
+let xpHero;
 
 while (true) {
     nomeHeroi = prompt("Digite o nome do herói:");
@@ -12,21 +12,21 @@ while (true) {
     }
 }
 
-var nivel;
+let nivel;
 
 if (xpHero < 1000) {
     nivel = "Ferro";
-} else if (xpHero <= 2000) {
+} else if (xpHero >= 1001 && xpHero <= 2000) {
     nivel = "Bronze";
-} else if (xpHero <= 5000) {
+} else if (xpHero >= 2001 && xpHero <= 5000) {
     nivel = "Prata";
-} else if (xpHero <= 7000) {
+} else if (xpHero >= 5001 && xpHero <= 7000) {
     nivel = "Ouro";
-} else if (xpHero <= 8000) {
+} else if (xpHero >= 7001 && xpHero <= 8000) {
     nivel = "Platina";
-} else if (xpHero <= 9000) {
+} else if (xpHero >= 8001 && xpHero <= 9000) {
     nivel = "Ascendente";
-} else if (xpHero <= 10000) {
+} else if (xpHero >= 9001 && xpHero <= 10000) {
     nivel = "Imortal";
 } else {
     nivel = "Radiante";
