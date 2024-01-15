@@ -1,16 +1,20 @@
 let nomeHeroi;
 let xpHero;
 
-while (true) {
-    nomeHeroi = prompt("Digite o nome do herói:");
-    xpHero = parseInt(prompt("Digite a quantidade de experiência do herói:"));
+nomeHeroi = "Robisson";
+xpHero = 8541;
 
-    if (!isNaN(xpHero)) {
-        break;
-    } else {
-        alert("Por favor, insira um número válido para a experiência do herói.");
-    }
-}
+// Comente ou remova o bloco abaixo se quiser usar o prompt, antes estava completo porém no curso não ensinou sobre prompt então preferi tranformar somente em anotação.
+// while (true) {
+//     nomeHeroi = prompt("Digite o nome do herói:");
+//     xpHero = parseInt(prompt("Digite a quantidade de experiência do herói:"));
+
+//     if (!isNaN(xpHero)) {
+//         break;
+//     } else {
+//         alert("Por favor, insira um número válido para a experiência do herói.");
+//     }
+// }
 
 let nivel;
 
